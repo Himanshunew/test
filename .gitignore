@@ -1,46 +1,46 @@
-# # WordPress Core
-# /wp-admin/
-# /wp-includes/
-# /license.txt
-# /readme.html
+# WordPress Core
+/wp-admin/
+/wp-includes/
+/license.txt
+/readme.html
 
-# # Ignore all plugins, except for those you're working on
-# wp-content/plugins/*
+# Ignore all plugins, except for those you're working on
+wp-content/plugins/*
 
-# # Ignore all themes, except for those you're working on
-# wp-content/themes/*
-# !wp-content/themes/hello-elementor/
-# !wp-content/themes/hello-elementor-child/
+# Ignore all themes, except for those you're working on
+wp-content/themes/*
+!wp-content/themes/hello-elementor/
+!wp-content/themes/hello-elementor-child/
 
-# # Ignore WordPress uploads
-# wp-content/uploads/
+# Ignore WordPress uploads
+wp-content/uploads/
 
-# # Ignore WordPress config and secrets
-# wp-config.php
-# wp-config-sample.php
+# Ignore WordPress config and secrets
+wp-config.php
+wp-config-sample.php
 
-# # Ignore database backup files
-# *.sql
-# *.sql.gz
+# Ignore database backup files
+*.sql
+*.sql.gz
 
-# # Ignore log files and debug files
-# *.log
-# debug.log
+# Ignore log files and debug files
+*.log
+debug.log
 
-# # Ignore cache files
-# wp-content/cache/
-# wp-content/advanced-cache.php
-# wp-content/wp-cache-config.php
-# wp-content/backups/
+# Ignore cache files
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/backups/
 
-# # Ignore Jetpack files
-# wp-content/plugins/jetpack/_inc/jetpack-idc.php
+# Ignore Jetpack files
+wp-content/plugins/jetpack/_inc/jetpack-idc.php
 
-# # Ignore error logs
-# error_log
+# Ignore error logs
+error_log
 
-# # Ignore IDE and editor config files
-# .vscode/
-# .idea/
-# *.sublime-project
-# *.sublime-workspace
+# Ignore IDE and editor config files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
