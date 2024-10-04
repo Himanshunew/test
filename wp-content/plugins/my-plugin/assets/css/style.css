@@ -1,0 +1,207 @@
+.winkler-slider {
+    display: flex;
+    overflow: hidden;
+    text-align: left;
+}
+
+
+.winkler-slider .slick-slide:not(.slick-current + div) {
+    opacity: 50%!important;
+    z-index: 0!important;
+    background:#fff;
+}
+ .slick-initialized .slick-slide{
+    text-align: left!important;
+
+}
+.winkler-slider .slick-current + div {
+    z-index: 1!important;
+    transform: scale(1.2) !important;
+    color: #fff;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    background: white;
+    position: relative;
+    margin-top: 0px;
+    padding: 23px;
+    margin-right: -115px;
+    margin-left: -140px;
+}
+.winkler-slider .slick-slide h4 {
+    color: #000;
+    margin-bottom: 0;
+}
+.winkler-slider .slick-track {
+    padding: 35px 0;
+}
+
+.elementor hr {
+    margin: 0;
+    background-color: transparent;
+    width: 90%;
+}
+
+
+.testimonial-slide {
+    margin-right: 20px;
+    text-align: center;
+    border-radius:8px;
+  
+}
+
+.testimonial-slide img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.testimonial-slide h4 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.testimonial-slide p {
+    color: #242424;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #555;
+    min-height: 95px;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+
+.star-rating {
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.star {
+    color: #ccc; /* Color for empty stars */
+}
+.star.filled {
+    color: gold; /* Color for filled stars */
+}
+
+    .testimonial-slider {
+        position: relative;
+        overflow: hidden;
+        width: 100%; /* Set width to desired value */
+    }
+
+    .testimonial-slide {
+        display: none; /* Hide all slides initially */
+        padding: 20px; /* Add padding for aesthetics */
+        text-align: center; /* Center align text */
+    }
+
+    .testimonial-slide.active {
+        display: block; /* Show active slide */
+    }
+
+    .star-rating {
+        color: gold; /* Color for stars */
+    }
+
+    .star {
+        font-size: 20px; /* Size of stars */
+    }
+
+    .testimonial-slide .slick-slide .slick-active{
+        background-color: #fff!important;
+        box-shadow: 10px 10px!important;
+    }
+
+
+    .home-customer-reviews .elementor-testimonial__title {
+        position: absolute!important;
+        bottom: 27px!important;
+        left: 28px!important;
+        border-top: 1px solid #000;
+        width: 51%;
+        padding-top: 5px;
+    }
+        .home-customer-reviews .elementor-testimonial__image img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+        .elementor-widget-reviews .elementor-testimonial__image {
+        display: flex;
+    }
+        
+        .home-customer-reviews .elementor-testimonial__name {
+        display: inline-grid!important;
+    }
+        .home-customer-reviews .elementor-testimonial__header {
+        padding-left: 15px!important;
+    }
+        .home-customer-reviews .elementor-testimonial__content {
+        padding-bottom: 75px!important;
+    }
+        .elementor-testimonial__image img {
+        border-radius: 999px;
+        box-sizing: content-box;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    .home-customer-reviews .elementor-testimonial__image {
+        position: absolute!important;
+        bottom: 20px!important;
+        right: 25px!important;
+    }
+
+    .winkler-slider {
+        max-width: 580px;
+        margin: auto;
+    }
+
+ 
+
+    button.slick-arrow{
+        display: none!important;
+    }
+    
+    
+    .winkler-slider  h4 {
+    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+.winkler-slider .slick-current {
+    z-index: 1!important;
+    color: #fff;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    background: white;
+    position: relative;
+    margin-top: 0px;
+    padding: 23px;
+}
+.winkler-slider .slick-current + div {
+    margin-right: 0px;
+    margin-left: 0px;
+    transform: scale(1) !important;
+}
+.winkler-slider .slick-slide:not(.slick-current + div) {
+    opacity: 1 !important;
+    z-index: 1!important;
+}
+
+.testimonial-slide {
+    margin: 5px 10px!important;
+
+}
+.winkler-slider .slick-list.draggable{
+height:380px;
+}
+}
+
+@media only screen and (min-width: 600px) {
+.testimonial-slide{
+width:270px!important;}
+}
